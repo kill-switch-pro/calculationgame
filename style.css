@@ -1,0 +1,66 @@
+input {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  margin-left: 1.5rem;
+}
+
+
+#number-to-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 5rem;
+  position: absolute;
+  /*margin-left: 2rem;
+  border: 2px solid green;*/
+}
+
+/*
+div#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+
+#writeScore {
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 2;
+  position: absolute;
+}
+
+#countDownOutput {
+  position: absolute;
+  right: 0;
+  top: 3;
+}
+
+#game{
+  margin-left: 3rem;
+  border-radius: 100px solid black;
+}
+/*
+#gameCover {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  z-index: 999;
+  display: block;
+}*/
+
+/*
+#gameCover:hover {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  display: none;
+}*/
